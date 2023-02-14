@@ -1,0 +1,14 @@
+Bilal Tuncer
+can i use bayes classifier for a regression model
+
+No, a Bayes classifier is a type of classification model, not a regression model. Regression models are used for predicting continuous values, such as prices or temperatures, while classification models are used for predicting which category or class an input belongs to.
+
+Bilal Tuncer
+but i want to filter a feature using class
+
+If you want to filter a feature using a class, you could use a classification model such as a Bayes classifier to predict the class of each input, and then use the predicted class labels to filter the input data. For example, if you have a dataset with a feature that represents the size of an object, and you want to filter out all objects that are "large," you could train a Bayes classifier to predict whether an object is "large" or "not large" based on its size. Once the classifier is trained, you could use it to predict the class of each object in the dataset, and then select only the objects that are predicted to be "large" to create a filtered dataset.
+
+Bilal Tuncer
+how can i decide the predicted class labels to change with the original data
+
+To decide which predicted class labels to use with the original data, you could evaluate the performance of your classification model using a metric such as accuracy or F1 score. This will help you determine how well the model is able to predict the correct class labels for the input data. You could then use the predicted class labels from the model that performs the best on this evaluation.
