@@ -1,2 +1,2 @@
 # LFD
-Learning From Data
+Learning From Data Course
